@@ -1,11 +1,337 @@
-<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>Isabella Pu</title>
-</head>
+    <head>
+        <title>{Title}</title>
+        <link rel="shortcut icon" href="{Favicon}">
+        <link rel="alternate" type="application/rss+xml" href="{RSS}">
+        {block:Description}
+            <meta name="description" content="{MetaDescription}" />
+        {/block:Description}
+    </head>
+   
+<style type="text/css">
+ 
+::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #e1e1e1;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #000000;
+}
+::-webkit-scrollbar-track {
+  background: #666666;
+  border: 0px none #ffffff;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #666666;
+}
+::-webkit-scrollbar-track:active {
+  background: #333333;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+ 
+body {
+    background-color:#000000;
+    font-family:'Gibson', sans-serif;
+    font-size: 11px;
+    color:#006f94;
+    background-image:url('http://static.tumblr.com/c5339841517f8cf3387632990e242bcb/86jccts/vVxnb6ab5/tumblr_static_a2q298d2f808skgg0gwcc44o0.gif');
+    background-position: bottom right;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+ 
+a {
+    text-decoration:none;
+    color:#f2992e;
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+}
+ 
+a:hover {
+    color:#636363;
+}
+ 
+b, strong {
+    color:#878787;
+    text-transform:uppercase;
+}
+ 
+i, em {
+    color:#878787;
+    font-family:'Bookman', serif;
+}
+ 
+blockquote {
+    padding:2px 7px;
+    margin:3px 0 3px 8px;
+    border-left:1px solid #006f94;
+}
+   
+blockquote img {    
+    max-width:100%;
+    height:auto;
+}
+ 
+img {
+     max-width: 100%;
+}
+ 
+h1 {
+    font-size:30px;
+    line-height:30px;
+    text-align:right;
+    padding:10px;
+}
+ 
+#container {
+    position:absolute;
+    left:300px;
+    height:350px;
+    overflow-y:scroll;
+    width:530px;
+    top:300px;
+}  
+ 
+.posts {
+    width:500px;
+    background-color:#ffffff;
+    padding:10px;
+    margin-bottom:30px;
+}
+ 
+.permalinks {
+    background-color:#eee;
+    padding:5px;
+    height:12px;
+}
+ 
+.permalinks a {
+    text-decoration:none;
+    font-size: 9px;
+    color:#f2992e;
+}
+ 
+.permalinks a:hover {
+    color:#636363;
+}
+ 
+.date {
+    float:left;
+}
+ 
+.reblogs {
+    float:right;
+}
+   
+{block:PermalinkPage}    
+.tags {
+    text-align:center;
+}
+ 
+.tags a {
+    text-decoration:none;
+    font-size: 8px;
+    text-transform:uppercase;
+    color:#636363;
+}
+ 
+.tags a:hover {
+    color:#f2992e;
+}
+{/block:PermalinkPage}
+ 
+#sidebar {
+    position:fixed;
+    left:60px;
+    top:300px;
+    height:350px;
+    width:200px;
+    background:transparent;
+    background-position: bottom left;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    opacity:0.2;
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+}
+ 
+#sidebar:hover {
+    opacity:1;
+}
+ 
+#description {
+    font-size:10px;
+    color:#ffffff;
+    text-align:right;
+    padding:10px;
+}
+ 
+#sideimage img {
+    max-width:250px;
+    margin-left:10px;
+}
+ 
+#links {
+    font-size:12px;
+    padding:10px;
+    text-align:right;
+}
+ 
+#links a {
+    display:inline-block;
+    color:#006f94;
+    padding-left:10px;
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+}
+ 
+#links a:hover {
+    color:#dddddd;
+    letter-spacing:1px;
+}
+ 
+#pagination {
+    position:fixed;
+    bottom:30px;
+    left:850px;
+}
+ 
+#pagination a {
+    color:#006f94;
+    font-size:20px;
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+}
+ 
+#pagination a:hover {
+    color:#ffffff;
+}
+ 
+.asker {
+    font-size:15px;
+    font-style: italic;
+    text-align:center;
+    border-bottom:1px solid #eee;
+    margin-bottom:5px;
+    padding-bottom:3px;
+}
+ 
+.question {
+    font-style: italic;
+    padding-left:50px;
+    padding-right:50px;
+}
+ 
+.quote {
+    font-size:13px;
+    letter-spacing:1px;
+    text-align:center;
+    border-bottom:1px solid #eee;
+    margin-bottom:5px;
+    padding-bottom:3px;
+}
+ 
+.quotesource {
+    font-size:10px;
+    letter-spacing:1px;
+    text-align:center;
+    margin-bottom:5px;
+}
+ 
+</style>
+   
 <body>
-  <h1>work in progress</h1>
-  <footer>Isabella Pu</footer>
+<div id="sidebar">
+<h1>{Title}</h1>
+ 
+<div id="description">{block:Description}{Description}{/block:Description}
+</div>
+ 
+<div id="links">
+<a href="/">home</a>  
+<a href="/ask">ask</a>  
+<a href="/submit">submit</a>  
+<a href="/archive">archive</a>  
+</div>    
+   
+</div>
+ 
+<div id="pagination">{block:Pagination}
+{block:PreviousPage}<a href="{PreviousPage}">prev</a>{/block:PreviousPage} {block:NextPage}<a href="{NextPage}">next</a>
+{/block:NextPage}
+{/block:Pagination}</div>
+ 
+<div id="container">  
+ 
+{block:Posts}
+ 
+<div class="posts">
+ 
+{block:Text}{block:Title}{Title}{/block:Title}{Body}{/block:Text}
+ 
+{block:Photo}<img src="{PhotoURL-500}" alt="{PhotoAlt}"/>{block:Caption}{Caption}{/block:Caption}{/block:Photo}
+ 
+{block:Panorama}{LinkOpenTag}<img src="{PhotoURL-Panorama}" alt="{PhotoAlt}"/>{LinkCloseTag}{block:Caption}{Caption}{/block:Caption}{/block:Panorama}
+ 
+{block:Photoset}{Photoset-500}{block:Caption}{Caption}{/block:Caption}{/block:Photoset}
+ 
+{block:Quote}<div class="quote">{Quote}</div>{block:Source}<div class="quotesource">{Source}</div>{/block:Source}{/block:Quote}
+ 
+{block:Link}<a href="{URL}" class="link" {Target}>{Name}</a>{block:Description}{Description}{/block:Description}{/block:Link}
+ 
+{block:Chat}{block:Title}{Title}</a>{/block:Title}
+{block:Lines}<li>{block:Label}{Label}{/block:Label}{Line}</li>{/block:Lines}{/block:Chat}
+                       
+{block:Video}{Video-500}{block:Caption}{Caption}{/block:Caption}{/block:Video}
+ 
+{block:Audio}{AudioEmbed}{block:Caption}{Caption}{/block:Caption}{/block:Audio}
+ 
+{block:Answer}
+<div class="asker">{Asker} whispered</div>
+<div class="question">{Question}</div>
+{Answer}
+{/block:Answer}
+ 
+<div class="permalinks">
+<div class="date"><a href="{Permalink}">{DayOfMonth}{DayOfMonthSuffix} {ShortMonth} {Year} </a><a href="{Permalink}">{block:NoteCount}{NoteCount}{/block:NoteCount}</a></div>
+<div class="reblogs">{block:RebloggedFrom}
+<a href="{ReblogParentURL}">via;</a>
+<a href="{ReblogRootURL}">source;</a>
+{/block:RebloggedFrom}  <a href="{ReblogURL}">reblog</a></div>
+</div>
+ 
+{block:PermalinkPage}<div class="tags">{block:HasTags}{block:Tags}<a href="{TagUrl}"> {Tag}</a>{/block:Tags}{/block:HasTags}</div>{/block:PermalinkPage}
+ 
+</div>
+ 
+{/block:Posts}
+ 
+</div>
+ 
+{block:ContentSource}
+<!-- {SourceURL}{block:SourceLogo}<img src="{BlackLogoURL}"
+width="{LogoWidth}" height="{LogoHeight}" alt="{SourceTitle}" />
+{/block:SourceLogo}
+{block:NoSourceLogo}{SourceLink}{/block:NoSourceLogo} -->
+{/block:ContentSource}
 </body>
 </html>
