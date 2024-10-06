@@ -12,8 +12,10 @@ This was my senior thesis work at Princeton University, advised by Professor Nao
 
 In this work, we co-designed a robotic percussion quartet made up of Sphero BOLT robots with musicians. We were inspired by robotic strengths in music-making, such as the ability to easily add randomness, coordination between robot group members, and exact precision. Most robotic music systems try to emulate humans by training on human musician movements and playing, but we aimed to use this percussion quartet to create _uniquely_ robotic music that humans would have a difficult time reproducing.
 
-<div class="mt-3">
-    {% include video.liquid path="https://www.youtube.com/embed/tIFt7FLN4iE" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://www.youtube.com/embed/tIFt7FLN4iE" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
 <div class="caption">
     A public demo of the robotic quartet playing music without human interaction.
@@ -23,8 +25,10 @@ We also added human interaction into this piece, mediated by use of a MIDI keybo
 
 Generally, audience response was extremely positive, with participants indicating a positive experience. We also found that participants believed the robotic percussion music to be unreproducible by humans, and we found that non-expert roboticists and expert musicians had the most positive mindset shift when faced with the experience among all viewers.
 
-<div class="mt-3">
-    {% include video.liquid path="https://www.youtube.com/embed/4oA_Sw2eIQY" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://www.youtube.com/embed/4oA_Sw2eIQY" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
 <div class="caption">
     A recording of my thesis oral presentation.

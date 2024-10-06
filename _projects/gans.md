@@ -9,3 +9,12 @@ category: princeton
 ---
 
 to be added
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/gans-cats.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    </div>
+</div>
+<div class="caption">
+    The animation demonstrating how to train a GAN to generate cat faces, narrated by Adam Finkelstein.
+</div>
