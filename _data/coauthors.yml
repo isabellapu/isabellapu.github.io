@@ -2,6 +2,14 @@
   - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
     url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
 
-"breazeal"
+"breazeal":
   - firstname: ["Cynthia", "Cynthia B.", "C", "C. B."]
     url: https://www.media.mit.edu/people/cynthiab/overview/
+
+"picard":
+  - firstname: ["Rosalind", "Rosalind W.", "R.", "R. W."]
+    url: https://www.media.mit.edu/people/picard/overview/
+  
+"alghowinem":
+  - firstname: ["Sharifa"]
+    url: https://www.media.mit.edu/people/sharifah/overview/
