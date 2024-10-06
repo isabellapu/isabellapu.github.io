@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project coming soon
-description: to be added
+title: GANs Animations
+description: created two educational animations shown at the Vancouver Art Gallery about GANs
 img: assets/img/12.jpg
 importance: 1
-category: research
-related_publications: true
+category: princeton
+# related_publications: true
 ---
 
 <!-- Every project has a beautiful feature showcase page.
