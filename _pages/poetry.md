@@ -10,19 +10,26 @@ nav_order: 4
 ***Autumn diptych***
 
 **i.**
+
 It’s so warm for November, and the sky is flush with a long afternoon reluctance. Lacing up my tennis shoes in front of you feels more intimate than I intended, but I need to wear something on my feet or how else am I going to get from here to there. Before, I’d hoped it would be enough to dance alone as I always had: between the darknesses of different planets that only I could find in the nighttime. Before, I’d hoped the vanilla and tobacco of that room — draped in your own private severity, sharp to the touch and oddly, oddly warm — would cover me in enough uncertainty that I’d stop recognizing the most terrifying parts of myself. Maybe then I could learn to break open at the edges, where sandalwood meets the otherside of Neptune, to live just for the fun of it  and unfurl into something so vast I can’t see either end of me. Yes, I’d like to burst into a paroxysm of sound, to reach from one end of this cold universe into another altogether, to discern the differences between your thousands of voices, and more. To know you as myself, racing down Briarcliff Road, adorned in rings of ice, possessed by a tremendous desire to leave. In an unfamiliar sky, I’m staring at two lost stars.  One wants to be found.
 
 **ii.**
+
 &emsp;&emsp;&emsp;&emsp;It’s warm for a November evening.
+
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;My face is completely flushed.
 
+
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;I unlace my tennis shoes.
+
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;There’s no moving from here tonight.
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Sometimes, I dance alone;
+
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;sometimes, I smell of vanilla and tobacco.
 
 &emsp;&emsp;&emsp;&emsp;I’ve tried to fold up my own boundlessness
+
 only to explode into a freezing sound.
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;So know that if you see something running
@@ -34,7 +41,9 @@ only to explode into a freezing sound.
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;There are two suns.
 
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;One is breaking open at the edges.
+
 ***
+
 ***Nighttime in Conroe***
 
 That night, I was called by a certain type of darkness – the type that really knows how to find you. I was a stranger out there, planted on the sidewalk in front of Dollar General: under the yellow glow, I felt washed, and washed, bathed in the waterfall of neon.
@@ -52,39 +61,69 @@ I ask the world: Do you love me? Still?
 I say, tell me again. Again.
 
 Late at night, a truck passes through.
+
 ***
+
 ***March***
 
 From what I can tell,
+
 there’s nothing trustworthy
+
 about being alive.
 
+
 Even so, I wake up
+
 ready to take my turn
+
 at the helm, peering
+
 across an unfamiliar road,
+
 thinking _I have never seen_
+
 _a sky so blue in my life_
+
 though I thought the same thing
+
 yesterday.
 
+
 Today,
+
 I walk with myself
+
 along the Chattahoochee.
+
 Each footstep crunches
+
 in a new way, and if
+
 this morning isn’t a prayer
+
 it’s something close.
 
+
+
 The squirrels are quiet,
+
 and so am I. How much the world
+
 has to say. The kind of shelter
+
 offered by the trees. A river
+
 erupting into daylight.
+
 For a moment, I forget
+
 what it means to be alive.
+
 I am, anyways.
+
 ***
+
 ***How to be alone***
 
 In the place between existences
