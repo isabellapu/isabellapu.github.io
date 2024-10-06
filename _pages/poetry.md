@@ -100,7 +100,7 @@ In the place between existences\
 I press my body against peeling wallpaper\
 trying to take a step towards you.
 
-I know everything, but I have a lot of questions.\
+I know everything, but I have a lot of questions.
 
 What I mean is do you think it might rain.\
 What I mean is can the cicadas smell your goodness\
