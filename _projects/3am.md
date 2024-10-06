@@ -2,13 +2,13 @@
 layout: page
 title: some things I think about between the hours of midnight and 3am
 description: programmatic visual poetry
-img: 
+img: assets/img/3am.png
 importance: 2
 category: fun
 # related_publications: true
 ---
 
-to be added
+I created a series of programmatic art pieces based on words and poetry using **p5.js**. You can experience this work [here](https://editor.p5js.org/isabellapu/full/Ha6191iqT) or view a demo below. *I highly recommend interacting directly with the piece.*
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
