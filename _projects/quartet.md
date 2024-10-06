@@ -1,81 +1,33 @@
 ---
 layout: page
-title: A Robotic Percussion Quartet
+title: Robotic Percussion Quartet
 description: co-designed a robotic percussion quartet system with musicians to play uniquely robotic music with human interaction
-img: assets/img/12.jpg
+img: assets/img/quartet.jpg
 importance: 1
 category: princeton
 # related_publications: true
 ---
 
-<!-- Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This was my senior thesis work at Princeton University, advised by Professor Naomi Leonard (Mechanical & Aerospace Engineering), Dr. Jeff Snyder (Music), and Professor Radhika Nagpal (Computer Science, Mechanical & Aerospace Engineering).
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+In this work, we co-designed a robotic percussion quartet made up of Sphero BOLT robots with musicians. We were inspired by robotic strengths in music-making, such as the ability to easily add randomness, coordination between robot group members, and exact precision. Most robotic music systems try to emulate humans by training on human musician movements and playing, but we aimed to use this percussion quartet to create _uniquely_ robotic music that humans would have a difficult time reproducing.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+<div class="mt-3">
+    {% include video.html path="https://www.youtube.com/embed/tIFt7FLN4iE" class="img-fluid rounded z-depth-1" %}
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    A public demo of the robotic quartet playing music without human interaction.
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+We also added human interaction into this piece, mediated by use of a MIDI keyboard. Through the keyboard, participants were able to not just interact with the robots but actually feel like a new member of the instrumental group.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+Generally, audience response was extremely positive, with participants indicating a positive experience. We also found that participants believed the robotic percussion music to be unreproducible by humans, and we found that non-expert roboticists and expert musicians had the most positive mindset shift when faced with the experience among all viewers.
+
+<div class="mt-3">
+    {% include video.html path="https://www.youtube.com/embed/4oA_Sw2eIQY" class="img-fluid rounded z-depth-1" %}
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    A recording of my thesis oral presentation.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %} -->
+A paper detailing the results of this project is currently in submission.
