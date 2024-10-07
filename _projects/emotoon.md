@@ -7,6 +7,8 @@ importance: 4
 category: media lab
 ---
 
-to be added
+In collaboration with Jocelyn Shen, we developed a human-AI co-creativity tool that helps non-artists design emotional comic storyboards with the help of generative AI.
 
 A paper detailing the results of this project is currently in submission.
+
+This page is under construction.
