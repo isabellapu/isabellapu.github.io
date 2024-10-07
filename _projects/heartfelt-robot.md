@@ -2,7 +2,7 @@
 layout: page
 title: A HeARTfelt Robot
 description: AI-powered social robot guided art discussion for social emotional learning in kids
-img: assets/img/12.jpg
+img: assets/publication_preview/heartfelt.png
 importance: 2
 category: media lab
 related_publications: true

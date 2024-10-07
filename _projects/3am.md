@@ -2,7 +2,7 @@
 layout: page
 title: some things I think about between the hours of midnight and 3am
 description: programmatic visual poetry
-img: assets/img/3am.png
+img: assets/img/3am_f1.gif
 importance: 2
 category: fun
 # related_publications: true

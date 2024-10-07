@@ -2,7 +2,7 @@
 layout: page
 title: "though it may feel real this is all just a memory"
 description: programmatic art with musical data input
-img: assets/img/memory.png
+img: assets/img/memory.gif
 importance: 1
 category: fun
 ---
@@ -51,3 +51,5 @@ These processes also adjust visuals like speed, color, size, and opacity of obje
 <div class="caption">
     The technical demo of how different musical fluctuations can affect the animation via sliders.
 </div>
+
+You can view the technical demo [here](https://editor.p5js.org/isabellapu/full/w5Wmsb-a2).
