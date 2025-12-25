@@ -11,7 +11,7 @@ Children today are more digitally connected than ever before, with increasing ex
 
 While AI Education has grown immensely over the past several years, this growth has mostly been seen in colleges and high schools, leaving elementary schools limited. This is especially true of the primary grades (K-3) despite the fact that they see AI-generated content in their everyday lives.
 
-To this end, we are developing the **Interactive Storybooks for Early AI Literacy**, which will include a series of *ten online interactive storybooks, complementary educator guides,* and *corresponding robot interactions that reinforce learning*.
+To this end, we are developing the **Interactive Storybooks for Early AI Literacy**, which will include a series of _ten online interactive storybooks, complementary educator guides,_ and _corresponding robot interactions that reinforce learning_.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -38,8 +38,6 @@ Robot interactions to reinforce learning are also in development. These robot in
         {% include figure.liquid loading="eager" path="assets/img/storybook/3girls.jpg" title="storybook screenshot" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
-
 
 We have run **pilot studies with nearly 50 students** and collected data indicating that the **storybooks are effectively engaging and educating students in grades 1-3**. We will continue piloting our tools through development and will run a full-scale study with all the books and robot interactions in early 2025. To do so, we will collaborate with local and global educational organizations to test our work with, ensuring that this tool successfully engages the target demographic and can make a true impact on early childhood AI and robotics education.
 

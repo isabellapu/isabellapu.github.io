@@ -8,7 +8,7 @@ category: fun
 # related_publications: true
 ---
 
-I created a series of programmatic art pieces based on words and poetry using **p5.js**. You can experience this work [here](https://editor.p5js.org/isabellapu/full/Ha6191iqT) or view a demo below. *I highly recommend interacting directly with the piece.*
+I created a series of programmatic art pieces based on words and poetry using **p5.js**. You can experience this work [here](https://editor.p5js.org/isabellapu/full/Ha6191iqT) or view a demo below. _I highly recommend interacting directly with the piece._
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
