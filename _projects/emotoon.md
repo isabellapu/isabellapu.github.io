@@ -3,7 +3,7 @@ layout: page
 title: EmoToon
 description: a human-AI co-creativity tool to design emotional comic storyboards for non-artists
 img: assets/img/emotoon-sample.png
-importance: 4
+importance: 5
 category: media lab
 ---
 
