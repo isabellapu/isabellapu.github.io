@@ -2,10 +2,9 @@
 layout: page
 title: projects
 permalink: /projects/
-description: a list of my projects, research and fun!
 nav: true
 nav_order: 3
-display_categories: [media lab, princeton, fun]
+display_categories: [media lab, princeton, art]
 horizontal: false
 ---
 

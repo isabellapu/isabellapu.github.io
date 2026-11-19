@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our work **[Who's the Boss? Children Negotiate Robot Control Across Role and Context](https://isabellapu.com)** is accepted to **[ACM/IEEE HRI 2026](https://humanrobotinteraction.org/2026/)**!
+Our work **[Who's the Boss? Children Negotiate Robot Control Across Role and Context](https://doi.org/10.1145/3757279.3785548)** is accepted to **[ACM/IEEE HRI 2026](https://humanrobotinteraction.org/2026/)**!

@@ -26,4 +26,6 @@ group :other_plugins do
     gem 'css_parser'
     gem 'feedjira'
     gem 'httparty'
+    gem 'observer' # observer + ostruct: no longer bundled with Ruby 3.4+/4.0 (newer docker image)
+    gem 'ostruct'
 end

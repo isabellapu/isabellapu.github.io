@@ -9,7 +9,7 @@
   color: "#009f36"
 
 "RO-MAN 2024":
-  color: "#c100e3"
+  color: "#e8590c"
   url: https://www.ro-man2024.org/
 
 "HRI 2025":
@@ -23,3 +23,20 @@
 "IDC 2025":
   color: "#2966cf"
   url: https://idc.acm.org/2025/
+
+"IDC 2026":
+  color: "#2966cf"
+  url: https://idc.acm.org/2026/
+
+"RO-MAN 2026":
+  color: "#e8590c"
+
+"CHI 2026":
+  color: "#c100e3"
+  url: https://chi2026.acm.org/
+
+"CHI 2026 Workshop":
+  color: "#c100e3"
+
+"ACII 2026":
+  color: "#0c8599"
