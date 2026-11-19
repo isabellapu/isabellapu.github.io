@@ -1,14 +1,14 @@
 ---
-layout: page
 title: Telling Climate Stories with Data
 description: a week-long data science & machine learning course for high schoolers about finding narratives in climate data
 img: assets/img/climate-graph.png
-importance: 6
+importance: 8
 category: media lab
+links:
+  - label: curriculum
+    url: https://dayofai.wpenginepowered.com/curriculum/ai-programming-courses-with-python/#climatestories
 ---
 
-In collaboration with Matt Taylor and Rachel Connolly, I developed a weeklong data science and machine learning curriculum that teaches high schoolers how to analyze climate data using Python through a narrative lens. The curriculum stresses how all data tells a story and provides high schoolers with ways to find the story in their chosen data.
+With Matt Taylor and Rachel Connolly, I developed a week-long curriculum where high schoolers analyze climate data in Python and look for the story in their data.
 
-The curriculum uses DeepNote notebooks and the Python library _pandas_. At the end, students produce a piece of data theatre and have learned how to analyze, clean, and visualize their data, as well as how to create a predictive machine learning model with their data.
-
-The curriculum can be found on the Day of AI webpage [here](https://dayofai.wpenginepowered.com/curriculum/ai-programming-courses-with-python/#climatestories).
+Students learn to clean, visualize, and build a predictive machine learning model with their data, then present it as a piece of data theatre.

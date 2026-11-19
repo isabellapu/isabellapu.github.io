@@ -1,14 +1,14 @@
 ---
-layout: page
 title: EmoToon
 description: a human-AI co-creativity tool to design emotional comic storyboards for non-artists
 img: assets/img/emotoon-sample.png
-importance: 5
+importance: 3
 category: media lab
+links:
+  - label: ACII 2026 paper
+    url: https://arxiv.org/abs/2610.09155
 ---
 
-In collaboration with Jocelyn Shen, we developed a human-AI co-creativity tool that helps non-artists design emotional comic storyboards with the help of generative AI.
+EmoToon helps non-artists turn their feelings into sketch-style comic storyboards with the help of generative AI.
 
-A paper detailing the results of this project is currently in submission.
-
-This page is under construction.
+In a study with 25 participants, AI assistance improved emotional expression, aesthetic quality, and exploration, but reduced people's sense of creative ownership. Led with Jocelyn Shen (ACII 2026).

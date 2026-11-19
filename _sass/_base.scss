@@ -1340,3 +1340,40 @@ h2.home-section {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
 }
+
+// project cards: lift on hover, open a pop-up on click
+.project-card {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  &:hover,
+  &:focus {
+    transform: translateY(-4px);
+  }
+}
+
+.project-links {
+  font-size: 0.9rem;
+  a {
+    color: var(--global-theme-color);
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .project-links-sep {
+    color: var(--global-text-color-light);
+  }
+}
+
+.project-modal {
+  .modal-content {
+    background-color: var(--global-bg-color);
+    color: var(--global-text-color);
+    border: 1px solid var(--global-divider-color);
+  }
+  .modal-header {
+    border-bottom-color: var(--global-divider-color);
+  }
+  .close {
+    color: var(--global-text-color);
+  }
+}

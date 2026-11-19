@@ -197,7 +197,7 @@ collections:
     output: true
     permalink: /:collection/:title/
   projects:
-    output: true
+    output: false # projects open as pop-ups on /projects/, no separate pages
     permalink: /:collection/:title/
 
 announcements:

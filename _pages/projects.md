@@ -62,3 +62,19 @@ horizontal: false
   {% endif %}
 {% endif %}
 </div>
+
+<script>
+  $(function () {
+    // pop-ups must sit at the top level of the page to display correctly
+    $('.project-modal').appendTo('body');
+    // stop any video when a pop-up closes
+    $('.project-modal').on('hidden.bs.modal', function () {
+      $(this).find('video').each(function () { this.pause(); });
+      $(this).find('iframe').each(function () { this.src = this.src; });
+    });
+    // keyboard: Enter/Space on a card opens its pop-up
+    $('.project-card').on('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); $($(this).data('target')).modal('show'); }
+    });
+  });
+</script>

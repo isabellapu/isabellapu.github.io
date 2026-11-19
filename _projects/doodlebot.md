@@ -1,23 +1,16 @@
 ---
-layout: page
 title: Doodlebot
-description: TODO
+description: a drawing robot for K-12 AI education, and a lens on how children think about robot authority
 img: assets/img/doodlebots-smiling.jpg
-importance: 4
+importance: 2
 category: media lab
-related_publications: false
+links:
+  - label: HRI 2026 paper
+    url: https://doi.org/10.1145/3757279.3785548
+  - label: RO-MAN 2026 paper
+    url: https://ieeexplore.ieee.org/abstract/document/11714744
 ---
 
-**Doodlebot**, developed by MIT’s Personal Robots research group, is an innovative educational robot designed to introduce children to computational thinking and artificial intelligence. Utilizing intuitive block-based programming tools, students can program Doodlebot to perform tasks such as facial and object recognition or dynamic conversation, and subsequently use outputs from AI models to inform the robot’s decision-making processes.
+Doodlebot is an educational robot from the Personal Robots Group that children program with blocks to draw, dance, express emotions, and use AI.
 
-A key distinction of Doodlebot lies in its seamless integration of _art_ with STEM education. By enabling students to program the robot to draw, dance, and express emotions, it demonstrates that programming can be a powerful medium not only in STEM fields but also for artistic expression. This unique approach fosters a deeper emotional connection between children and the robot, evidenced by genuine attachment observed in pilot test participants.
-
-Ultimately, Doodlebot aims to empower students to both acquire essential coding skills and cultivate their creative abilities through robot programming, thereby bridging the realms of technology and creative self-expression via joyful, playful interaction.
-
----
-
-Doodlebot has been used in several field studies and experiments.
-
-At a Summer 2025 STEAM summer camp, Doodlebot was used to investigate how K-2 students negotiate questions of authority and control with robots, revealing that children apply context- and role-sensitive rules when deciding when robots should lead, collaborate, or defer in familiar contexts.
-
-This work is further described in our forthcoming paper at HRI 2026, _Who's the Boss? Children Negotiate Robot Control Across Role and Context_.
+With Doodlebot, we studied how children ages 6-9 think robots should fit into everyday authority. Children resisted robot control in areas tied to their own skills and self-expression, and expected teacher, classmate, and mentee robots to behave differently (HRI 2026). We also found that changing a robot's voice, decorations, or costume shapes the traits and classroom roles children give it, but not whether they would listen to it (RO-MAN 2026).
