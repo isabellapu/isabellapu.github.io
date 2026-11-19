@@ -70,7 +70,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.2" # latest 3.2.x; exact patch versions get dropped from new runner images
+          ruby-version: "4.0" # match the local docker preview (Gemfile.lock is resolved on Ruby 4.0)
           bundler-cache: true
       - name: Update _config.yml ⚙️
         uses: fjogeleit/yaml-update-action@main
