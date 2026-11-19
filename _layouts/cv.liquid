@@ -4,5 +4,5 @@ layout: default
 <!-- _layouts/cv.html -->
 updated: winter 2026
 <div class="post">
-  <object data="../assets/pdf/pu_summer25.pdf#pagemode=none" width="750" height="1000" type="application/pdf"></object>
+  <object data="{{ page.cv_pdf | prepend: '/assets/pdf/' | relative_url }}#pagemode=none" width="750" height="1000" type="application/pdf"></object>
 </div>
